@@ -11,5 +11,5 @@
     git add .
     git commit -m "message"
     git remote add origin https://github.com/yourusername/your-repo-name.git
-    git push -u origin maste
+    git push -u origin master
 
