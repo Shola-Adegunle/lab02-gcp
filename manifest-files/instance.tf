@@ -1,7 +1,7 @@
 resource "google_compute_instance" "web_instance" {
   name         = "web-instance"
   machine_type = "e2-medium"
-  zone         = "us-central1-a"
+  zone         = "europe-west2-a"
 
   boot_disk {
     initialize_params {
