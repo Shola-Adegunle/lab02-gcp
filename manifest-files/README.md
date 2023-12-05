@@ -13,3 +13,4 @@ GIT
 
 ADO
 1) Create build pipeline
+2) Create release pipeline
