@@ -8,7 +8,7 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(agent.builddirectory)/s/manifest-files'
+    SourceFolder: '$(agent.builddirectory)/manifest-files'
     Contents: |
       **
       *.tf
