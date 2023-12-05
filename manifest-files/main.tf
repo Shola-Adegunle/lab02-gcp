@@ -5,9 +5,9 @@ terraform {
       version = ">=5.0"
     }
   }
-  #backend "gcs" {
-  #bucket = "tf-state-sadey2k"
-  #}
+  backend "gcs" {
+  bucket = "tf-state-sadey2k"
+  }
 }
 
 provider "google" {
